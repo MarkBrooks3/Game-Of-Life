@@ -25,6 +25,7 @@ h1 {
 
 td.alive {
     background-color: #8CC8DD;
+    transition: 0.5s background-color;
 }
 
 #control_panel {

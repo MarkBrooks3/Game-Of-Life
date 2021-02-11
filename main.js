@@ -52,7 +52,7 @@ document.getElementById('play_btn').addEventListener('click', event => {
         playing = setInterval(() => {
             gol.playGame()
             draw()
-        },300)
+        },1000)
         document.getElementById('play_btn').innerHTML ='Stop'
     } else {
         clearInterval(playing)
